@@ -1,12 +1,6 @@
 """
 This script computes the properties of a given altitude in the ISA standard
 regime, such properties include air's Temperature, Pressure and Density.
-The properties can be calculated for both a single altitude or a set of
-altitudes within a given interval. This script also plots the curves for
-T vs. altitude, P vs. altitude & Rho(density) vs. altitude.
-Author: Alejandro Angel
-Contact: alejandro.angelc@upb.edu.co
-Date: january 23rd, 2019
 """
 from utils import grad, iso
 from constants import (
